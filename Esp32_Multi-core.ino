@@ -1,4 +1,4 @@
-//variaveis que indicam o núcleo
+//variaveis que indicam o core
 static uint8_t taskCoreZero = 0;
 static uint8_t taskCoreOne  = 1;
 
@@ -9,7 +9,7 @@ void setup() {
     coreTaskOne,              // Função que implementa a tarefa
     "coreTaskOne",            // Nome da tarefa
     10000,                    // Número de palavras a serem alocadas para uso com a pilha da tarefa
-    NULL,                     // Parâmetro de entrade para a tarefa (pode ser NULL)
+    NULL,                     // Parâmetro de entrada para a tarefa (pode ser NULL)
     1,                        // Prioridade da tarefa (0 a N)
     NULL,                     // Referência para a tarefa (pode ser NULL)
     taskCoreOne               // Núcleo que executará a tarefa
